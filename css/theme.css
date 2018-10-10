@@ -5881,8 +5881,8 @@ body:before{
   vertical-align:middle;
 }
 button{
-  background:#1AAB8A;
-  color:#fff;
+  background:whitesmoke;
+  color:#444(255, 255, 255);
   border:none;
   position:relative;
   height:60px;
@@ -5894,7 +5894,7 @@ button{
 }
 button:hover{
   background:#fff;
-  color:#1AAB8A;
+  color:black;
 }
 button:before,button:after{
   content:'';
@@ -5903,7 +5903,7 @@ button:before,button:after{
   right:0;
   height:2px;
   width:0;
-  background: #1AAB8A;
+  background: rgb(171, 26, 26);
   transition:400ms ease all;
 }
 button:after{
